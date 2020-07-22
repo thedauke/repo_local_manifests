@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
 <!--
 16T
 -->
@@ -30,13 +31,26 @@
 <!--
 Asus rog phone ||
 -->
-  <project name="thedauke/android_device_asus_I001D" path="device/asus/I001DLineage" remote="github" revision="lineage-17.1" />
-  <project path="device/asus/I01WD" name="ComicoTeam/android_device_asus_I01WD" remote="github" revision="Havoc-Ten" />
-  <project path="device/asus/I001D" name="ComicoTeam/android_device_asus_I001D" remote="github" revision="Havoc-Ten" />
-  <project path="kernel/asus/I001" name="ComicoTeam/android_kernel_asus_rog2" remote="github" revision="lineage-17.1" />
-  <project path="kernel/asus/sm8150" name="ComicoTeam/android_kernel_asus_sm8150" remote="github" revision="q" />
-  <project path="vendor/asus" name="ComicoTeam/proprietary_vendor_asus" clone-depth="1" remote="github" revision="Lineage-17.1" />
+<project path="device/asus/I01WD" name="ComicoTeam/android_device_asus_I01WD" remote="github" revision="Havoc-Ten" />
+<project path="device/asus/I001D" name="ComicoTeam/android_device_asus_I001D" remote="github" revision="Havoc-Ten" />
+<project path="kernel/asus/I001" name="ComicoTeam/android_kernel_asus_rog2" remote="github" revision="lineage-17.1" />
+<project path="kernel/asus/sm8150" name="ComicoTeam/android_kernel_asus_sm8150" remote="github" revision="q" />
+<project path="vendor/asus" name="ComicoTeam/proprietary_vendor_asus" clone-depth="1" remote="github" revision="Lineage-17.1" />
+
+<!--
+Asus rog phone || omni
+  <project path="device/qcom/sepolicy" name="omnirom/android_device_qcom_caf-sepolicy" remote="github" revision="android-10" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="omnirom/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="android-10" />
+-->
+<project path="device/asus/rog2" name="omnirom/android_device_asus_rog2" remote="github" revision="android-10" />
+<project path="kernel/asus/rog2" name="omnirom/android_kernel_asus_rog2" remote="github" revision="android-10" />
+
+<!--
+Asus rog phone || Lineage
+-->
+<project path="device/asus/I001D" name="LineageOS/android_device_asus_I001D" remote="github" revision="lineage-17.1" />
+<project path="kernel/asus/I001" name="LineageOS/android_kernel_asus_I001" remote="github" revision="lineage-17.1" />
+<project path="kernel/asus/rog2" name="omnirom/android_kernel_asus_rog2" remote="github" revision="android-10" />
 
 </manifest>
-
 
