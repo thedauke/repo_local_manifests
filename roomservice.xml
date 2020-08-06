@@ -4,8 +4,8 @@
 <!--
 16T
 -->
-<project name="thedauke/1928devicetree" path="device/meizu/m1928" remote="github" revision="crdroid" />
-<project name="thedauke/sm8150devicetree" path="device/meizu/sm8150-common" remote="github" revision="crdroid" />
+<project name="thedauke/1928devicetree" path="device/meizu/m1928" remote="github" revision="crDroid6.7" />
+<project name="thedauke/sm8150devicetree" path="device/meizu/sm8150-common" remote="github" revision="crDroid6.7" />
 <project name="MoKee/android_vendor_meizu_m1928" path="vendor/meizu/m1928" remote="github" revision="mkq-mr1" />
 <project name="MoKee/android_vendor_meizu_sm8150-common" path="vendor/meizu/sm8150-common" remote="github" revision="mkq-mr1" />
 <project name="MoKee/android_kernel_meizu_sm8150" path="kernel/meizu/sm8150" remote="github" revision="mkq-mr1" />
