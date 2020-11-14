@@ -5,7 +5,7 @@
 16th
 -->
 <project name="thedauke/android_device_meizu_m1882" path="device/meizu/m1882" remote="github" revision="PE" />
-<project name="thedauke/android_vendor_meizu_m1882" path="vendor/meizu/m1882" remote="github" revision="master" /> 
+<project name="thedauke/android_vendor_meizu_m1882" path="vendor/meizu/m1882" remote="github" revision="backupdb" /> 
 <project name="MoKee/android_kernel_meizu_sdm845" path="kernel/meizu/sdm845" remote="github" revision="mkq-mr1" />
 
 </manifest>
